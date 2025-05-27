@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int total,pages;
+    scanf("%d %d",&total,&pages);
+    int m=total/2-pages/2;
+    if(m<=pages/2){
+        printf("%d",m);
+    }
+    else{
+            printf("%d",pages/2);
+        }
+    
+    
+    return 0;
+}
