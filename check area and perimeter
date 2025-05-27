@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int length,breath;
+    scanf("%d %d",&length,&breath);
+    int perimeter =2*(length+breath);
+    int area = length*breath;
+    printf("%d\n",perimeter);
+    printf("%d\n",area);
+    
+    return 0;
+}
